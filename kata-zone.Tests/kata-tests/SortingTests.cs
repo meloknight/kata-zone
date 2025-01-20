@@ -15,6 +15,7 @@ namespace kata_zone.Tests
             // Assert
             Assert.Equal( [1, 1, 2, 2, 4, 4, 5, 6, 7, 33, 78, 456], result );
         }
+
         [Fact]
         public void bubbleSort_ShouldReturnAscendingOrderIntArray2()
         {
